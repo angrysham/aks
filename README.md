@@ -9,7 +9,7 @@ This repository serves as a starting point for managing multi-tenant clusters wi
 ## Terraform provider flux
 https://github.com/fluxcd/terraform-provider-flux
 
-## Folder Structure
+## Repository Structure
 ```
 ├── terraform
 ├── cicd
@@ -48,26 +48,14 @@ https://github.com/fluxcd/terraform-provider-flux
 - Manages app deployments with `GitRepositories` and `Kustomizations`
 - Manages app releases with `HelmRepositories` and `HelmReleases`
 
-## Repository structure
-
 The [platform admin repository](https://github.com/fluxcd/flux2-multi-tenancy/tree/main) contains the following top directories:
 
+- **cicd** dir contains YAML file used for Build Pipeline configuration in Azure DevOps portal
 - **clusters** dir contains the Flux configuration per cluster
 - **infrastructure** dir contains common infra tools such as admission controllers, CRDs and cluster-wide polices
 - **tenants** dir contains namespaces, service accounts, role bindings and Flux custom resources for registering tenant repositories
-
-```
-├── clusters
-│   ├── production
-│   └── staging
-├── infrastructure
-│   ├── kyverno
-│   └── kyverno-policies
-└── tenants
-    ├── base
-    ├── production
-    └── staging
-```
+- **terraform** dir containing modules path(versioned generic repo) and variables to it
+- **scripts** dir contains varios scripts
 
 A [tenant repository](https://github.com/fluxcd/flux2-multi-tenancy/tree/dev-team) contains the following top directories:
 
