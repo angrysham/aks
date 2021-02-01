@@ -46,6 +46,9 @@ https://github.com/fluxcd/terraform-provider-flux
 ├── scripts
 ├── infrastructure
 │   ├── nginx
+│   ├── elastic
+│   ├── grafana
+│   ├── cert-manager
 │   ├── redis
 │   ├── kyverno
 │   └── kyverno-policies
