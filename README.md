@@ -83,5 +83,8 @@ The [platform admin repository](https://github.com/fluxcd/flux2-multi-tenancy/tr
 - **scripts** dir contains varios scripts
 
 **What Is Argo CD?**
+
 Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.
+Application definitions, configurations, and environments should be declarative and version controlled. Application deployment and lifecycle management should be automated, auditable, and easy to understand.
+
 ![](https://argoproj.github.io/argo-cd/assets/argocd-ui.gif)
