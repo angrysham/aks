@@ -13,25 +13,6 @@ You can use the toolkit to extend Flux, or to build your own systems
 for continuous delivery -- see [the developer
 guides](https://toolkit.fluxcd.io/dev-guides/source-watcher/).
 
-### Components
-
-- [Source Controller](https://toolkit.fluxcd.io/components/source/controller/)
-    - [GitRepository CRD](https://toolkit.fluxcd.io/components/source/gitrepositories/)
-    - [HelmRepository CRD](https://toolkit.fluxcd.io/components/source/helmrepositories/)
-    - [HelmChart CRD](https://toolkit.fluxcd.io/components/source/helmcharts/)
-    - [Bucket CRD](https://toolkit.fluxcd.io/components/source/buckets/)
-- [Kustomize Controller](https://toolkit.fluxcd.io/components/kustomize/controller/)
-    - [Kustomization CRD](https://toolkit.fluxcd.io/components/kustomize/kustomization/)
-- [Helm Controller](https://toolkit.fluxcd.io/components/helm/controller/)
-    - [HelmRelease CRD](https://toolkit.fluxcd.io/components/helm/helmreleases/)
-- [Notification Controller](https://toolkit.fluxcd.io/components/notification/controller/)
-    - [Provider CRD](https://toolkit.fluxcd.io/components/notification/provider/)
-    - [Alert CRD](https://toolkit.fluxcd.io/components/notification/alert/)
-    - [Receiver CRD](https://toolkit.fluxcd.io/components/notification/receiver/)
-
-
-## Terraform provider flux
-https://github.com/fluxcd/terraform-provider-flux
 
 ## Repository Structure
 ```
