@@ -20,6 +20,7 @@ guides](https://toolkit.fluxcd.io/dev-guides/source-watcher/).
 ├── cicd
 │   ├── terraform
 ├── scripts
+├── local
 ├── infrastructure
 │   ├── nginx
 │   ├── elastic
