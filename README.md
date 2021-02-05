@@ -6,14 +6,8 @@
 
 This repository serves as a starting point for managing multi-tenant clusters with Terraform, Git and Flux v2 and Helm charts.
 
-## GitOps Toolkit
-
-The GitOps Toolkit is the set of APIs and controllers that make up the
-runtime for Flux v2. The APIs comprise Kubernetes custom resources,
-which can be created and updated by a cluster user, or by other
-automation tooling.
-
-![overview](https://github.com/fluxcd/flux2/blob/main/docs/diagrams/gitops-toolkit.png)
+## Pipeline 
+![overview](AKS_ArgoCD.jpeg)
 
 You can use the toolkit to extend Flux, or to build your own systems
 for continuous delivery -- see [the developer
